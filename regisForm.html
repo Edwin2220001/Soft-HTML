@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #a75495;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .frm {
+            display: flex;
+            width: 800px;
+            height: 500px;
+            background-color: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+        
+        }
+        .imgcl img{
+            width: 400px;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+
+        .reg_fm{
+            padding: 25px;
+            width: 400px;
+            color: #ffffff;
+        }
+
+        h2{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }    
+
+        .reg_fm form input, select {
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
+        
+        button {
+            width: 60%;
+            padding: 10px;
+            margin: auto;
+            align-content: center;
+            background-color: #00ff00;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00e600;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<div class="frm">
+    <div class="imgcl">
+        <img src="bgrd.jpg" alt="Your Image">
+    </div>
+
+    <div class="reg_fm">
+        <h2>Registration Info</h2> 
+        <form action="">   
+            <label for="fname"></label>
+            <input type="text" id="" name="fname" placeholder="First Name">
+            <label for="address"></label>
+            <input type="text" id="" name="address" placeholder="Address">
+            <label for="zipcode"></label>
+            <input type="text" id="" name="zipcode" placeholder="Zip Code">
+            <select id="con" for="con" name="select">
+                    <option hidden>State</option>
+                    <option value="1">Kerala</option>
+                    <option>Tamil Nadu</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Telengana</option>
+            </select>
+            <label for="username"></label>
+            <input type="text" id="" name="username" placeholder="Username">
+            <label for="email"></label>
+            <input type="text" id="" name="username" placeholder="email">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>    
+
+</div> 
+
+</body>
+
+
+</html>
