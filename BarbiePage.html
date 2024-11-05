@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie Page</title>
+    <style>
+        *{
+            margin: 0;
+            /* padding: 0; */
+        }
+        nav {
+            background-color: rgb(15, 173, 121);
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h3{
+            margin-left: 12px;
+            align-items: center;
+        }
+        ul{            
+            /* margin: 0; */
+            list-style-type: none;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        /* height: 100%; */
+        padding: 20px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #111;
+        }
+
+        .intro{
+            display: flex;
+            margin: 25px 40px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #btext{
+            margin: 0;
+            display: block;
+            justify-content: center;
+        }
+        #bimg{
+            /* height: 100px; */
+        }
+
+        .bintro{
+            text-align: center;
+        }
+        .infocards{
+            display: flex;
+            margin: 40px;
+            gap: 20px;
+            justify-content: center;
+
+        }
+        .cbox{
+            box-shadow: 0px 10px 10px -3px black;
+            text-align: justify;
+            border-radius: 12px;
+            margin: 10px;
+            justify-content: center;
+            text-align: center;
+        }
+        .cbox h2{
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .suform{
+            /* margin-left: 80px; */
+            max-width: 2000px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+        form{
+            display: inline-block;
+        }
+        
+        form label{
+            display: block;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        form input {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 14px;
+        }
+   
+        form button{
+            width: 70%;
+            padding: 5px;
+            background-color: #d2dcd2;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+
+        .ConInfo{
+            display: inline-block;
+            /* display: inline-flexbox; */
+            width: 20%;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #d2dcd2;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555b55;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h3>Landing Page</h3>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Sign up</a></li>
+        </ul>
+    </nav>
+
+    <div class="intro">
+        <div id="btext">
+            <h1>Discover The World of Barbie</h1>
+            <button>Explore More</button>
+        </div>
+        <div id="bimg">
+            <img src="the barbie shop.jpeg" alt="barbie"  height="300px" width="" sizes="">
+        </div>
+    </div>
+
+    <div class="bintro">
+        <h1>Barbie</h1>
+    </div>    
+
+    <section class="infocards">
+        <div class="cbox">
+            <h2>DSA</h2>
+            <p>The term DSA stands for Data Structures and Algorithms. As the name suggests, it is a combination of two separate yet interrelated topics.</p>
+        </div>
+        <div class="cbox">
+            <h2>HTML</h2>
+            <p>HTML stands for HyperText Markup Language. Along with CSS, it's used to design webpages.</p>
+        </div>
+        <div class="cbox">
+            <h2>Javascript</h2>
+            <p>JavaScript (JS) is the most popular lightweight, interepted compiled programming language</p>
+        </div>
+    </section><br>
+
+    <div class="bintro">
+        <h1>Sign up</h1>
+    </div>
+
+    <div class="suform">
+        <form>
+            <label for="Your Name">Your Name</label>
+            <input type="text" placeholder="Enter your name">
+            <label for="Your e-mail">Your e-mail</label>
+            <input type="text" placeholder="Enter your e-mail">
+            <label for="Your password">Your password</label>
+            <input type="text" placeholder="Enter your password">
+            <button>Sign up</button>
+        </form>
+
+        <div class="ConInfo">
+            <h4>Contact Us</h4>
+            <p>A-143, 9th floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar Pradesh- 201305</p>    
+            <h4>More information</h4>
+            <p>Gretings to geeks for geeks out there joi am o-timus bajaj. thanginam brothers. geeks fofr geeks geeks for geeks out there joi am optimus bajaj.</p>
+        </div>
+    </div>
+</body>
+</html>
